@@ -64,8 +64,7 @@ header li:last-child{
 .column{
     padding: 10px 0;
 }
-.col{
-    border: 1px solid black;
+.first-section .col{
     background-color: #b4ddff;
 }
 
@@ -84,11 +83,46 @@ header li:last-child{
     padding: 20px;
 }
 
+/* testimonials */
+.testimonials{
+    margin-bottom: 3.5rem;
+}
+.testimonials *{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.testimonials .row{
+    background-color: #9593e6;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.testimonials .text{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* benefits */
+.benefits{
+    background-color: #9593e6;
+    padding: 2rem 0;
+}
+.benefits h2{
+    color: white;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.benefits .flex{
+    display: block;
+}
+.benefits .col{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 /* TABLET */
-
-/* main */
 @media screen and (min-width: 768px) {
-
     /* first-section */
     .row-1, .row-2{
         display: flex;
@@ -103,10 +137,20 @@ header li:last-child{
     .row-2 .column{
         width: 32%;
     }
+
+    /* benefits */
+    .benefits .flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .benefits .column{
+        width: 49%;
+    }
 }
 
-/* DESKTOP */
 
+/* DESKTOP */
 @media screen and (min-width: 992px) {
     /* header */
     .menu{
@@ -125,5 +169,10 @@ header li:last-child{
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+    }
+
+    /* benefits */
+    .benefits .column{
+        width: 32%;
     }
 }
