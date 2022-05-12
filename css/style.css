@@ -35,6 +35,10 @@ li a {
     color: inherit;
 }
 
+.violet{
+    color: #9593e6;
+}
+
 /* MOBILE FIRST */
 
 /* header */
@@ -121,6 +125,21 @@ header li:last-child{
     padding: 20px;
 }
 
+/* about us */
+.about-us{
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+.about-us h2{
+    padding-bottom: .5rem;
+}
+.about-us p{
+    padding-bottom: 2rem;
+}
+.about-us .flex{
+    display: block;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
     /* first-section */
@@ -146,6 +165,18 @@ header li:last-child{
     }
     .benefits .column{
         width: 49%;
+    }
+
+    /* about us */
+    .about-us .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-us .left{
+        width: 60%;
+    }
+    .about-us .right{
+        width: 35%
     }
 }
 
