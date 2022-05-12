@@ -23,14 +23,10 @@ body{
     display: flex;
 }
 
-ul{
-    list-style-type: none;
-}
-
 li{
     padding: 0 1rem;
 }
-li a {
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -38,6 +34,10 @@ li a {
 .violet{
     color: #9593e6;
 }
+.underline a{
+    text-decoration: underline;
+}
+
 
 /* MOBILE FIRST */
 
@@ -45,6 +45,9 @@ li a {
 header{
     background-color: #0085fd;
     color: white;
+}
+header ul{
+    list-style-type: none;
 }
 header .flex{
     justify-content: space-between;
@@ -140,6 +143,27 @@ header li:last-child{
     display: block;
 }
 
+/* get started */
+.get-started{
+    text-align: center;
+    background-color: #9593e6;
+    color: white;
+    padding: 2rem 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+.footer-top{
+    padding: 1.8rem 0;
+}
+.footer-bottom{
+    padding: 1.8rem 0;
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) {
     /* first-section */
@@ -178,6 +202,16 @@ header li:last-child{
     .about-us .right{
         width: 35%
     }
+
+    /* get started */
+    .get-started .container{
+        width: 80%;
+    }
+
+    /* FOOTER */
+    footer .container{
+        width: 80%;
+    }
 }
 
 
@@ -205,5 +239,15 @@ header li:last-child{
     /* benefits */
     .benefits .column{
         width: 32%;
+    }
+
+    /* get started */
+    .get-started .container{
+        width: 50%;
+    }
+
+    /* FOOTER */
+    footer .container{
+        width: 50%;
     }
 }
