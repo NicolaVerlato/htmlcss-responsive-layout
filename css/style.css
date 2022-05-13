@@ -264,12 +264,47 @@ header .flex{
 }
 .about-us h2{
     padding-bottom: .5rem;
+    font-size: 40px;
 }
 .about-us p{
     padding-bottom: 2rem;
 }
 .about-us .flex{
     display: block;
+}
+.left p{
+    line-height: 35px;
+}
+.img-about{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.img-about img{
+    height: 100%;
+    object-fit: cover;
+}
+.quote{
+    position: absolute;
+    top: -10px;
+    right: 8px;
+    font-size: 60px;
+}
+.help{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+}
+.right .btn{
+    color: white;
+    background-color: #9593e6;
+    width: 200px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
 }
 
 /* get started */
@@ -362,7 +397,10 @@ footer{
         width: 60%;
     }
     .about-us .right{
-        width: 35%
+        width: 30%
+    }
+    .about-us h2{
+        font-size: 60px;
     }
 
     /* get started */
