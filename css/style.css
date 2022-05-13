@@ -107,11 +107,22 @@ header .flex{
 .larga{
     text-align: left;
 }
-.larga h3{
+.larga .col{
+    height: 100%;
+}
+.first-section h3{
     color: #0085fd;
     text-align: center;
     padding-bottom: 30px;
     font-size: 20px;
+}
+.first-section .icon{
+    color: #0085fd;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+.stretta .col{
+    height: 100%;
 }
 .larga .btn{
     width: 180px;
@@ -228,6 +239,9 @@ footer{
     .img{
         width: 70%;
     }
+    .first-section .col p{
+        line-height: 35px;
+    }
 
     /* benefits */
     .benefits .flex{
@@ -282,6 +296,9 @@ footer{
     }
     .img{
         width: 60%;
+    }
+    .first-section .col p{
+        line-height: 27px;
     }
     
 
