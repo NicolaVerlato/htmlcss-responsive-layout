@@ -276,22 +276,18 @@ header .flex{
     line-height: 35px;
 }
 .img-about{
-    width: 200px;
-    height: 200px;
+    width: 100%;
     margin-bottom: 25px;
-    border-radius: 50%;
-    overflow: hidden;
     position: relative;
 }
 .img-about img{
-    height: 100%;
-    object-fit: cover;
+    border-radius: 50%;
 }
 .quote{
     position: absolute;
     top: -10px;
-    right: 8px;
-    font-size: 60px;
+    right: 0px;
+    font-size: 70px;
 }
 .help{
     font-weight: 600;
@@ -391,6 +387,11 @@ footer{
         padding-right: 30px;
     }
 
+    /* strategy section */
+    .strategy-left h3{
+        font-size: 50px;
+    }
+
     /* testimonial */
     .testimonials .flex{
         display: flex;
@@ -440,6 +441,9 @@ footer{
     }
     .orange{
         font-size: 65px;
+    }
+    .get-started .btn-white{
+        padding: 17px 20px;
     }
 
     /* FOOTER */
@@ -492,15 +496,24 @@ footer{
         width: 70%;
         margin: 0 auto;
     }
+     .strategy-left h3{
+        font-size: 30px;
+    }
 
     /* benefits */
     .benefits .column{
         width: 32%;
     }
 
+    /* about us */
+    .quote{
+        right: 10px;
+        font-size: 80px;
+    }
+
     /* get started */
     .get-started .container{
-        width: 30%;
+        width: 40%;
     }
     .get-started span{
         font-size: 13px;
@@ -511,6 +524,6 @@ footer{
 
     /* FOOTER */
     footer .container{
-        width: 30%;
+        width: 40%;
     }
 }
