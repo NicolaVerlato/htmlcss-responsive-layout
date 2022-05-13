@@ -232,8 +232,29 @@ header .flex{
 }
 .benefits .col{
     background-color: white;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 30px 20px;
+}
+.number{
+    font-size: 60px;
+    font-weight: 600;
+}
+.benefit{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.benefits p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.benefits .btn{
+    background-color: #9593e6;
+    color: white;
+    width: 120px;
+    text-align: center;
+    font-weight: 600;
+    padding: 8px 0;
 }
 
 /* about us */
