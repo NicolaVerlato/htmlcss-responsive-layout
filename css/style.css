@@ -13,9 +13,9 @@ body{
 }
 
 .container{
-    padding-left: 2rem;
-    padding-right: 2rem;
-    max-width: 1440px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    max-width: 1240px;
     margin: 0 auto;
 }
 img{
@@ -38,7 +38,7 @@ a {
 .violet{
     color: #9593e6;
 }
-.underline a{
+.underline{
     text-decoration: underline;
 }
 .btn{
@@ -314,12 +314,40 @@ header .flex{
     color: white;
     padding: 2rem 0;
 }
+.transparent{
+    color: rgba(255, 255, 255, 0.6);
+}
+.big-text{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.orange{
+    color: #fcc15f;
+    font-size: 45px;
+    padding: 30px 0;
+    font-weight: 600;
+}
+.get-started p, span{
+    color: rgba(255, 255, 255, 0.9);
+}
+.get-started span{
+    font-size: 14px;
+}
+.get-started .btn-white{
+    color: #9593e6;
+    padding: 15px 20px;
+    border-radius: 30px;
+    width: 220px;
+    margin: 20px auto;
+}
 
 /* FOOTER */
 footer{
     background-color: #333333;
     color: white;
     text-align: center;
+    font-size: 13px;
 }
 .footer-top{
     padding: 1.8rem 0;
@@ -407,6 +435,12 @@ footer{
     .get-started .container{
         width: 80%;
     }
+    .big-text{
+        font-size: 35px;
+    }
+    .orange{
+        font-size: 65px;
+    }
 
     /* FOOTER */
     footer .container{
@@ -466,11 +500,17 @@ footer{
 
     /* get started */
     .get-started .container{
-        width: 50%;
+        width: 30%;
+    }
+    .get-started span{
+        font-size: 13px;
+    }
+    .get-started p{
+        font-size: 14px;
     }
 
     /* FOOTER */
     footer .container{
-        width: 50%;
+        width: 30%;
     }
 }
